@@ -102,3 +102,19 @@ In main(), <b>return 0;</b> often indicates that the program executed successful
   <li><b>Continue</b> skips unnecessary loop iterations.</li>
   <li><b>Return</b> ends the execution of a function and can return values to the calling function.</li>
 </ul>
+<br>
+<h2>Algorithm to Check Whether a Number is Even or Odd</h2>
+
+<ol>
+  <li>Start</li>
+  <li>Declare an integer variable <code>num</code></li>
+  <li>Display the message: <code>"Type number : "</code></li>
+  <li>Read the value of <code>num</code> from the user</li>
+  <li>Check if <code>num % 2 == 0</code>:
+    <ul>
+      <li>If <strong>true</strong>, display <code>"The number is Even"</code></li>
+      <li>If <strong>false</strong>, display <code>"The number is Odd"</code></li>
+    </ul>
+  </li>
+  <li>End</li>
+</ol>
