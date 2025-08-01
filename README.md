@@ -141,3 +141,29 @@ In main(), <b>return 0;</b> often indicates that the program executed successful
   <li>End</li>
 </ol>
 <br>
+<h2>Algorithm to Check Whether a Character is a Vowel or Consonant</h2>
+
+<ol>
+  <li>Start</li>
+  <li>Declare a character variable <code>ch</code></li>
+  <li>Display the message: <code>"Enter a character: "</code></li>
+  <li>Read the character <code>ch</code> from the user</li>
+  <li>Check if <code>ch</code> is equal to any of the following:
+    <ul>
+      <li><code>'a', 'e', 'i', 'o', 'u'</code></li>
+      <li><code>'A', 'E', 'I', 'O', 'U'</code></li>
+    </ul>
+  </li>
+  <li>If the condition is true:
+    <ul>
+      <li>Display: <code>"The character is a vowel."</code></li>
+    </ul>
+  </li>
+  <li>Else:
+    <ul>
+      <li>Display: <code>"The character is a consonant."</code></li>
+    </ul>
+  </li>
+  <li>End</li>
+</ol>
+<br>
