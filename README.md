@@ -167,3 +167,24 @@ In main(), <b>return 0;</b> often indicates that the program executed successful
   <li>End</li>
 </ol>
 <br>
+<h2>Algorithm to Display Day of the Week Using Switch Case</h2>
+
+<ol>
+  <li>Start</li>
+  <li>Declare an integer variable <code>day</code></li>
+  <li>Display the message: <code>"Enter a number (1-7): "</code></li>
+  <li>Read the value of <code>day</code> from the user</li>
+  <li>Use <code>switch(day)</code> to match the input:
+    <ul>
+      <li><code>case 1:</code> Display <code>"Monday"</code> and break</li>
+      <li><code>case 2:</code> Display <code>"Tuesday"</code> and break</li>
+      <li><code>case 3:</code> Display <code>"Wednesday"</code> and break</li>
+      <li><code>case 4:</code> Display <code>"Thursday"</code> and break</li>
+      <li><code>case 5:</code> Display <code>"Friday"</code> and break</li>
+      <li><code>case 6:</code> Display <code>"Saturday"</code> and break</li>
+      <li><code>case 7:</code> Display <code>"Sunday"</code> and break</li>
+      <li><code>default:</code> Display <code>"Invalid input! please enter from 1 to 7"</code></li>
+    </ul>
+  </li>
+  <li>End</li>
+</ol>
