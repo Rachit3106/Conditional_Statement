@@ -118,3 +118,26 @@ In main(), <b>return 0;</b> often indicates that the program executed successful
   </li>
   <li>End</li>
 </ol>
+<br>
+<h2>Algorithm to Find the Greatest of Three Numbers</h2>
+
+<ol>
+  <li>Start</li>
+  <li>Declare integer variables: <code>num1</code>, <code>num2</code>, <code>num3</code>, and <code>greatest</code></li>
+  <li>Display the message: <code>"Enter three numbers: "</code></li>
+  <li>Read values of <code>num1</code>, <code>num2</code>, and <code>num3</code> from the user</li>
+  <li>Initialize <code>greatest = num1</code></li>
+  <li>Check if <code>num2 > greatest</code>:
+    <ul>
+      <li>If true, set <code>greatest = num2</code></li>
+    </ul>
+  </li>
+  <li>Check if <code>num3 > greatest</code>:
+    <ul>
+      <li>If true, set <code>greatest = num3</code></li>
+    </ul>
+  </li>
+  <li>Display the result: <code>"The greatest number is: " + greatest</code></li>
+  <li>End</li>
+</ol>
+<br>
